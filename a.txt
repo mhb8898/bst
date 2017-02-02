@@ -1,0 +1,6 @@
+Strings can easily be written to and read from a file. Numbers take a 
+bit more effort, since the read() method only returns strings, which 
+will have to be passed to a function like int(), which takes a string 
+like '123' and returns its numeric value 123. When you want to save more 
+complex data types like nested lists and dictionaries, parsing and 
+serializing by hand becomes complicated.
